@@ -57,7 +57,5 @@ class Estudiante {
         return "Estudiante{" + "id=" + id + ", apellido=" + apellido + ", email=" + email + ", nombre=" + nombre + '}';
     }
    
-    
-    
 
 }

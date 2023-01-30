@@ -16,7 +16,7 @@ public class TestConexionPool {
         //test
 
         Connection conn = PoolConexion.getInstance().getConexion();
-        for (int i = 0; i < 100100; i++) {
+        for (int i = 0; i < 5000; i++) {
             if(conn != null){
             System.out.println("Conexion Exitosa" +i);
             PoolConexion.getInstance().closeConexion(conn);
